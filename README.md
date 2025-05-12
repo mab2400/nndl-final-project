@@ -1,7 +1,8 @@
 Mia Bramel
+
 5/13/25
 
-Neural Networks & Deep Learning Final Project Code
+# Neural Networks & Deep Learning Final Project Code
 
 ## To run the code:
 - Upload the Jupyter notebook project_notebook.ipynb to Google Colab
