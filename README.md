@@ -9,10 +9,9 @@ Mia Bramel
 - Ensure you are using a T4 GPU runtime
 - Upload the contents of the directory "to_upload_to_colab" directly into the content/ 
   folder in Colab. (For example, /content/superclass_mapping.csv)
-- Run the notebook, cell-by-cell.
-
-## Also included:
-- best_baseline_model: The weights for the Baseline Model (EfficientNetB4 with dual-classification head)
-- best_weighted_model: The weights for the Baseline Model + Class-Weighted Cross-Entropy Loss
-- best_weighted_finetuned_model_6h: The weights for the Baseline Model + Class-Weighted Cross-Entropy Loss, 
-  fine-tuned from block6h onward.
+- Run the notebook, cell-by-cell, to create:
+    - Models:
+        - Baseline Model + Class-Weighted Cross-Entropy Loss
+        - Baseline Model + Class-Weighted Cross-Entropy Loss + Fine-tuning from block6h onward
+    - Metrics for the above models
+    - Test predictions on the fine-tuned model
